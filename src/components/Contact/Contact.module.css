@@ -1,0 +1,21 @@
+.contactItem {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+.id {
+}
+.name {
+}
+.number {
+    margin-top: 5px;
+}
+p {
+    display: flex;
+    gap: 5px;
+}
