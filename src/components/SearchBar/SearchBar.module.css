@@ -1,0 +1,65 @@
+header {
+    transition: transform 0.3s ease;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: #0b5555;
+    border-radius: 0px 0px 8px 8px;
+    /* backdrop-filter: blur(1px); */
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+    z-index: 1;
+}
+.form {
+    display: flex;
+    gap: 8px;
+    position: relative;
+}
+.input {
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px rgba(0, 0, 0, 0.411);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+.input:active,
+.input:focus {
+    outline: none;
+    border: none;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px rgba(0, 0, 0, 0.411);
+    border: none;
+    color: #0b55559d;
+
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.411);
+    position: absolute;
+    right: 0;
+    transform: translate(-2px, 5px);
+}
+.button:hover,
+.button:focus {
+    svg {
+        filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    }
+}
+.button:active {
+    background-color: #18a7a741;
+}
+.hidden {
+    transform: translateY(-100%);
+}

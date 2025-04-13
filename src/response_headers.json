@@ -1,0 +1,118 @@
+Request URL:
+https://api.unsplash.com/photos
+Request Method:
+GET
+Status Code:
+200 OK
+Remote Address:
+146.75.117.181:443
+Referrer Policy:
+strict-origin-when-cross-origin
+accept-ranges:
+bytes
+access-control-allow-headers:
+*
+access-control-allow-methods:
+*
+access-control-allow-origin:
+*
+access-control-expose-headers:
+Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining
+access-control-max-age:
+7200
+age:
+0
+cache-control:
+max-age=9801,stale-if-error=5064,stale-while-revalidate=66
+content-encoding:
+br
+content-language:
+en
+content-length:
+7580
+content-type:
+application/json
+date:
+Sat, 12 Apr 2025 13:43:41 GMT
+etag:
+W/"ed86062d2f8456c578e960470ff8fcc3"
+link:
+<https://api.unsplash.com/photos?page=30903>; rel="last", <https://api.unsplash.com/photos?page=2>; rel="next"
+nel:
+{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+report-to:
+{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744465421&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JErxubLgJExttPd8vIN1Tp01bi0MHF02Ybh9n4sVk60%3D"}]}
+reporting-endpoints:
+heroku-nel=https://nel.heroku.com/reports?ts=1744465421&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JErxubLgJExttPd8vIN1Tp01bi0MHF02Ybh9n4sVk60%3D
+server:
+Cowboy
+strict-transport-security:
+max-age=63072000; includeSubDomains
+vary:
+Accept-Encoding,Authorization,Accept-Language,client-geo-region,Accept
+via:
+1.1 vegur, 1.1 varnish, 1.1 varnish
+x-cache:
+MISS, MISS
+x-cache-hits:
+0, 0
+x-per-page:
+10
+x-powered-by:
+hero-app
+x-ratelimit-limit:
+50
+x-ratelimit-remaining:
+49
+x-request-id:
+3e6c7e57-3704-4783-bc95-1b9d2682b162
+x-runtime:
+0.094217
+x-served-by:
+cache-iad-kjyo7100095-IAD, cache-fra-eddf8230027-FRA
+x-timer:
+S1744465422.790392,VS0,VE191
+x-total:
+309030
+x-unsplash-version:
+v1
+x-version:
+d4de74b91d3f23afb16cc9ef00485dd99e573dad
+:authority:
+api.unsplash.com
+:method:
+GET
+:path:
+/photos
+:scheme:
+https
+accept:
+application/json, text/plain, */*
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+authorization:
+Client-ID qpoEzgTyRGGFbT-b-zLDTmaLZEtoNSeRUFr4ar22KGU
+content-type:
+application/json
+origin:
+http://localhost:5173
+priority:
+u=1, i
+referer:
+http://localhost:5173/
+sec-ch-ua:
+"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+"Windows"
+sec-fetch-dest:
+empty
+sec-fetch-mode:
+cors
+sec-fetch-site:
+cross-site
+user-agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
