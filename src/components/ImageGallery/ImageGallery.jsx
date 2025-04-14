@@ -3,11 +3,13 @@ import ImageCard from '../ImageCard/ImageCard';
 import s from './ImageGallery.module.css';
 const ImageGallery = ({ data, openModal }) => {
     return (
-        <div className={s.galleryWrapper}>
+        <ul className={s.galleryWrapper}>
             {data.map(item => (
-                <ImageCard key={item.id} {...item} openModal={openModal} />
+                <li key={item.id} className={s.imageWrapper}>
+                    <ImageCard {...item} openModal={openModal} />
+                </li>
             ))}
-        </div>
+        </ul>
     );
 };
 

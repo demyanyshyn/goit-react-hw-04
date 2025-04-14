@@ -1,14 +1,11 @@
 import GridLoader from 'react-spinners/GridLoader';
 import s from './Loader.module.css';
-const Loader = ({ showLoader }) => {
-    console.log('showLoader: ', showLoader);
+const Loader = () => {
     return (
         <>
-            {showLoader && (
-                <div className={s.loaderWrapper}>
-                    <GridLoader />
-                </div>
-            )}
+            <div className={s.loaderWrapper}>
+                <GridLoader />
+            </div>
         </>
     );
 };
