@@ -21,11 +21,11 @@
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
-    filter: drop-shadow(1px 1px 2px black);
+    filter: saturate(1.5) drop-shadow(1px 1px 2px black);
 }
 .galleryWrapper img:hover {
     transform: scale(1.03);
-    filter: drop-shadow(1px 1px 5px black);
+    filter: saturate(2) drop-shadow(1px 1px 5px black);
 }
 @media (max-width: 1024px) {
     .galleryWrapper {
